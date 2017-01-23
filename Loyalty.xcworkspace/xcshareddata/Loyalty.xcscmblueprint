@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "562CE8D906DCBAABFB73A22EDBB679820B369BCB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "562CE8D906DCBAABFB73A22EDBB679820B369BCB" : 0,
+    "D85856FFF977CCC1BD9A013A18E827C831EBC801" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B5FFA454-D68F-48E8-A28D-096C1C152300",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "562CE8D906DCBAABFB73A22EDBB679820B369BCB" : "Colectivo_Loyalty\/",
+    "D85856FFF977CCC1BD9A013A18E827C831EBC801" : "Colectivo_Loyalty\/Loyalty\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Loyalty",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Loyalty.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/gitlab.com\/pos30\/colectivo_loyalty_app_ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "562CE8D906DCBAABFB73A22EDBB679820B369BCB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/gitlab.com\/colectivo_loyalty\/iOSApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D85856FFF977CCC1BD9A013A18E827C831EBC801"
+    }
+  ]
+}

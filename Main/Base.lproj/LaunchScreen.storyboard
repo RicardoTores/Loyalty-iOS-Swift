@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="2VP-mt-LVl">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="BZQ-ZU-iVi">
+            <objects>
+                <viewController id="2VP-mt-LVl" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iLb-w5-DQd"/>
+                        <viewControllerLayoutGuide type="bottom" id="ajK-6L-yOU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UBd-Mv-pxh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XE6-XO-ZhH" userLabel="statusbar">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="20"/>
+                                <color key="backgroundColor" red="0.1333333333" green="0.1215686275" blue="0.1215686275" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="fAY-Zl-e4h"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_logo" translatesAutoresizingMaskIntoConstraints="NO" id="xDx-xw-I1L">
+                                <rect key="frame" x="31" y="192" width="352" height="352"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="xDx-xw-I1L" secondAttribute="height" multiplier="1:1" id="DQa-Gs-l7k"/>
+                                    <constraint firstAttribute="height" constant="350" id="KIA-pH-gad"/>
+                                    <constraint firstAttribute="width" constant="350" id="NOm-Zu-21r"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="KIA-pH-gad"/>
+                                        <exclude reference="NOm-Zu-21r"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(C) Colectivo Coffee Roasters Inc 2016" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FwX-Hh-nIq">
+                                <rect key="frame" x="20" y="695" width="374" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="X8m-PP-QtD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="16"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.396078431372549" green="0.79607843137254897" blue="0.78823529411764703" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="XE6-XO-ZhH" firstAttribute="top" secondItem="UBd-Mv-pxh" secondAttribute="top" id="12M-UK-W1N"/>
+                            <constraint firstAttribute="bottom" secondItem="FwX-Hh-nIq" secondAttribute="bottom" constant="20" symbolic="YES" id="5km-MM-d5R"/>
+                            <constraint firstItem="FwX-Hh-nIq" firstAttribute="leading" secondItem="UBd-Mv-pxh" secondAttribute="leadingMargin" id="6Kz-nO-05R"/>
+                            <constraint firstItem="xDx-xw-I1L" firstAttribute="top" secondItem="iLb-w5-DQd" secondAttribute="bottom" id="Apj-ej-BCp"/>
+                            <constraint firstItem="FwX-Hh-nIq" firstAttribute="leading" secondItem="xDx-xw-I1L" secondAttribute="leading" id="H9I-wh-aVI"/>
+                            <constraint firstItem="FwX-Hh-nIq" firstAttribute="leading" secondItem="UBd-Mv-pxh" secondAttribute="leading" constant="20" id="Ihd-GF-zeu"/>
+                            <constraint firstItem="xDx-xw-I1L" firstAttribute="centerY" secondItem="UBd-Mv-pxh" secondAttribute="centerY" id="IwF-ss-IAe"/>
+                            <constraint firstItem="FwX-Hh-nIq" firstAttribute="trailing" secondItem="xDx-xw-I1L" secondAttribute="trailing" id="RPk-0W-lsj"/>
+                            <constraint firstAttribute="trailing" secondItem="XE6-XO-ZhH" secondAttribute="trailing" id="SMH-Za-D5L"/>
+                            <constraint firstItem="xDx-xw-I1L" firstAttribute="width" secondItem="UBd-Mv-pxh" secondAttribute="width" multiplier="0.85" id="ZWz-VS-e4W"/>
+                            <constraint firstItem="FwX-Hh-nIq" firstAttribute="centerX" secondItem="UBd-Mv-pxh" secondAttribute="centerX" id="dGW-IE-qzW"/>
+                            <constraint firstAttribute="trailing" secondItem="FwX-Hh-nIq" secondAttribute="trailing" constant="20" id="ffe-f8-PKB"/>
+                            <constraint firstItem="xDx-xw-I1L" firstAttribute="centerX" secondItem="UBd-Mv-pxh" secondAttribute="centerX" id="jcS-Da-uS7"/>
+                            <constraint firstItem="FwX-Hh-nIq" firstAttribute="top" secondItem="xDx-xw-I1L" secondAttribute="bottom" constant="45" id="lJb-P3-O5l"/>
+                            <constraint firstItem="FwX-Hh-nIq" firstAttribute="trailing" secondItem="UBd-Mv-pxh" secondAttribute="trailingMargin" id="pJB-kb-rol"/>
+                            <constraint firstItem="ajK-6L-yOU" firstAttribute="top" secondItem="FwX-Hh-nIq" secondAttribute="bottom" constant="20" id="yBS-QC-IQZ"/>
+                            <constraint firstItem="XE6-XO-ZhH" firstAttribute="leading" secondItem="UBd-Mv-pxh" secondAttribute="leading" id="zpc-d4-23b"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Apj-ej-BCp"/>
+                                <exclude reference="5km-MM-d5R"/>
+                                <exclude reference="6Kz-nO-05R"/>
+                                <exclude reference="H9I-wh-aVI"/>
+                                <exclude reference="RPk-0W-lsj"/>
+                                <exclude reference="lJb-P3-O5l"/>
+                                <exclude reference="pJB-kb-rol"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pHi-es-Jxh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2667" y="-217"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splash_logo" width="600" height="633"/>
+    </resources>
+</document>
